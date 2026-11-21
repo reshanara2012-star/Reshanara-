@@ -31,7 +31,7 @@ jobs:
         run: unzip RESHANARA_AI_A03s_CloudBuild.zip -d .
 
       - name: Build APK
-        run: gradle -p reshanara_android_project assembleDebug
+        run: gradle -p RESHANARA_AI_A03s_Android assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
