@@ -28,7 +28,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract Android project
-        run: unzip RESHANARA_AI_A03s_Project.zip -d .
+        run: unzip RESHANARA_AI_A03s_CloudBuild.zip -d .
 
       - name: Build APK
         run: gradle -p reshanara_android_project assembleDebug
